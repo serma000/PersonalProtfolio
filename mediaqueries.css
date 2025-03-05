@@ -45,6 +45,9 @@
   .about-containers {
     margin-top: 0;
   }
+  p {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -69,8 +72,8 @@
   .profile-pic {
     margin-right: 0;
     margin-top: 0;
-
-    width: 40vh;
+    width: 30vh;
+    height: 40vh;
   }
   .about-containers,
   .contact-info-upper-container,
@@ -118,5 +121,8 @@
   }
   .text-container {
     text-align: justify;
+  }
+  p {
+    font-size: 10px;
   }
 }
